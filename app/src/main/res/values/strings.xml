@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Ouvidoria UFRN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Cadastrar Manifestacao Start-->
+    <string name="categoria">Categoria</string>
+    <string name="assunto">Assunto</string>
+    <string name="tipo_manifestacao">Tipo</string>
+    <string name="titulo">Título</string>
+    <string name="arquivo">Arquivo</string>
+    <string name="mensagem">Mensagem</string>
+
+    <string-array name="tipos_categoria">
+        <item>Acadêmico</item>
+        <item>Administrativo</item>
+        <item>Assitência ao Aluno</item>
+        <item>Diversa</item>
+        <item>Infra-estrutura</item>
+        <item>Comperv</item>
+    </string-array>
+
+    <string-array name="tipos_manifestacao">
+        <item>Crítica</item>
+        <item>Reclamação</item>
+        <item>Denúncia</item>
+        <item>Elogio</item>
+        <item>Informação</item>
+        <item>Outro</item>
+    </string-array>
+
+    <string name="enter_mensagem">Escrever Manifestação</string>
+    <string name="enter_titulo">Título</string>
+    <string name="action_attach">Anexar</string>
+    <string name="action_send">Enviar</string>
+    <string name="privado">Se identificar como anônimo</string>
+    <!-- Cadastrar Manifestacao End-->
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cadastrar_manifestacao"
+            android:icon="@drawable/ic_edit_black_24dp"
+            android:title="Cadastrar Manifestação" />
+        <item
+            android:id="@+id/nav_ver_manifestacoes"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="Ver Manifestações" />
+        <item
+            android:id="@+id/nav_direitos_deveres"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Direitos e Deveres" />
+        <item
+            android:id="@+id/nav_regulamento"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="Regulamento" />
+
+        <item
+            android:id="@+id/nav_versao_web"
+            android:icon="@drawable/ic_public_black_24dp"
+            android:title="Ir para versão web" />
+        <item
+            android:id="@+id/nav_trocar_vinculo"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Trocar Vínculo" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_settings_black_24px"
+            android:title="Opções" />
+        <item
+            android:id="@+id/nav_sair"
+            android:icon="@drawable/ic_exit_to_app_black_24px"
+            android:title="Sair" />
+    </group>
+
+</menu>

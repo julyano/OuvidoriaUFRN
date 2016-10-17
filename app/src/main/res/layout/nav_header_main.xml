@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#3F51B5"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingTop="32dp"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp"
+        android:text="FULANO DA SILVA SICRANO"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:fontFamily="Roboto Medium"
+        android:layout_above="@+id/curso"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/curso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="16dp"
+        android:text="Curso: TECNOLOGIA DA INFORMAÇÃO/IMD - NATAL - BACHARELADO"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:fontFamily="Roboto Medium" />
+
+    <TextView
+        android:id="@+id/matricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/curso"
+        android:text="00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:fontFamily="Roboto Medium"/>
+
+</RelativeLayout>
